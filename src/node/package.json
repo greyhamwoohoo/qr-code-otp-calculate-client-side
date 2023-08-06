@@ -1,0 +1,15 @@
+{
+    "name": "calculate-qr-totp-at-time",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tdd": "nodemon -w index.js --legacy-watch --exec node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "totp-generator": "^0.0.14"
+    }
+  }

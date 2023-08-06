@@ -1,5 +1,10 @@
 # qr-code-otp-calculate-client-side
-Calculate the expected client side TOTP at a given time. 
+Bare-minimum to calculate the expected client side TOTP at a given time in:
+
+| Language | Location |
+| -- | -- |
+| C#/.Net 7 | src/.net7 |
+| Node | src/node<br/><br/>Open VsCode in src/node and use the .devcontainers |
 
 # Potential Scenarios
 UI Automation where MFA is required in those environments (usually late-stage environments such as Staging; or Pre-Prod/Prod)

@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+   nodey:
+     image: mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye
+     volumes:
+     - ./:/workspace:cached
+     entrypoint: "/bin/sh"
+     command: -c "sleep 1000000"
